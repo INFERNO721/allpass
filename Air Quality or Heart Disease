@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from sklearn import linear_model as lm
 
 ###### Data Cleaning ####### 
-d1=pd.read_csv("C:/Users/akash/Downloads/heart.csv")
+d1=pd.read_csv("location of csv file")
 d2=d1.head(20)
 d3=d2.dropna()
 d4=d2.fillna("No data Found")
